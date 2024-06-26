@@ -141,4 +141,48 @@ conditional statement :-
         statement
     }
 
+Loops :- 
 
+- loops are used to execute a piece of code again & again.
+
+1. For Loop :- 
+syntax - 
+for(initialization, condition, updation){
+    statement
+}
+ex- 
+for(let i = 1; i <= 5; i++){
+    console.log("web bocket)
+}
+
+web bocket 
+web bocket 
+web bocket
+web bocket
+web bocket
+
+2. while loop :-
+syntax - 
+while(condition){
+    statement
+    updation
+}
+
+3. Do-while loop :- 
+syantax - 
+do{
+    statement
+    updation
+}while (condition);
+
+4. for-of loop - it iterate on string and array
+
+5. for-in loop - it iterate over objects(key-value pair)
+syntax- 
+for(let key in objvar){
+    statement
+}
+
+* home work *
+1. print all even number from 0 to 100
+2. create a game you start with any random game number. ask the user to keep guessing the game number untill the user enters correct value.
